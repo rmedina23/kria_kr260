@@ -1,16 +1,18 @@
 {
    "ActiveEmotionalView":"Default View",
-   "Default View_ScaleFactor":"0.877273",
-   "Default View_TopLeft":"-10,-401",
+   "Default View_ScaleFactor":"0.587879",
+   "Default View_TopLeft":"-233,-619",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
 #  -string -flagsOSRD
-preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 2 -x 530 -y -70 -defaultsOSRD
-preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 110 -y -290 -defaultsOSRD
-preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 3 10 -160 NJ -160 840
-preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 3 0 -170 NJ -170 850
-levelinfo -pg 1 -20 110 530 870
-pagesize -pg 1 -db -bbox -sgen -20 -370 870 180
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 2 -x 610 -y -70 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 110 -y -180 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 110 -y -520 -defaultsOSRD
+preplace inst proc_sys_reset_1 -pg 1 -lvl 1 -x 110 -y -340 -defaultsOSRD
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 3 -70 20 NJ 20 920
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 3 -80 30 NJ 30 930
+levelinfo -pg 1 -100 110 610 950
+pagesize -pg 1 -db -bbox -sgen -100 -620 950 180
 "
 }
 {
