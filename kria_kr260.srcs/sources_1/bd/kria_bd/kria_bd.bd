@@ -13,7 +13,8 @@
       "zynq_ultra_ps_e_0": "",
       "clk_wiz_0": "",
       "proc_sys_reset_0": "",
-      "proc_sys_reset_1": ""
+      "proc_sys_reset_1": "",
+      "axi_intc_0": ""
     },
     "components": {
       "zynq_ultra_ps_e_0": {
@@ -1350,6 +1351,12 @@
         "xci_name": "kria_bd_proc_sys_reset_1_0",
         "xci_path": "ip/kria_bd_proc_sys_reset_1_0/kria_bd_proc_sys_reset_1_0.xci",
         "inst_hier_path": "proc_sys_reset_1"
+      },
+      "axi_intc_0": {
+        "vlnv": "xilinx.com:ip:axi_intc:4.1",
+        "xci_name": "kria_bd_axi_intc_0_0",
+        "xci_path": "ip/kria_bd_axi_intc_0_0/kria_bd_axi_intc_0_0.xci",
+        "inst_hier_path": "axi_intc_0"
       }
     },
     "nets": {
