@@ -1362,7 +1362,9 @@
       "zynq_ultra_ps_e_0_pl_resetn0": {
         "ports": [
           "zynq_ultra_ps_e_0/pl_resetn0",
-          "clk_wiz_0/resetn"
+          "clk_wiz_0/resetn",
+          "proc_sys_reset_1/ext_reset_in",
+          "proc_sys_reset_0/ext_reset_in"
         ]
       }
     }
