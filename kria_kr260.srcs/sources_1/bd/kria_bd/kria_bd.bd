@@ -1025,11 +1025,8 @@
           "PSU__LPD_SLCR__CSUPMU__ACT_FREQMHZ": {
             "value": "100.000000"
           },
-          "PSU__MAXIGP0__DATA_WIDTH": {
-            "value": "128"
-          },
-          "PSU__MAXIGP1__DATA_WIDTH": {
-            "value": "128"
+          "PSU__MAXIGP2__DATA_WIDTH": {
+            "value": "32"
           },
           "PSU__OVERRIDE__BASIC_CLOCK": {
             "value": "0"
@@ -1215,33 +1212,23 @@
             "value": "1"
           },
           "PSU__USE__M_AXI_GP0": {
-            "value": "1"
+            "value": "0"
           },
           "PSU__USE__M_AXI_GP1": {
-            "value": "1"
+            "value": "0"
           },
           "PSU__USE__M_AXI_GP2": {
-            "value": "0"
+            "value": "1"
           }
         },
         "interface_ports": {
-          "M_AXI_HPM0_FPD": {
+          "M_AXI_HPM0_LPD": {
             "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
             "mode": "Master",
             "address_space_ref": "Data",
             "base_address": {
-              "minimum": "0xA0000000",
-              "maximum": "0x0047FFFFFFFF",
-              "width": "40"
-            }
-          },
-          "M_AXI_HPM1_FPD": {
-            "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
-            "mode": "Master",
-            "address_space_ref": "Data",
-            "base_address": {
-              "minimum": "0xB0000000",
-              "maximum": "0x007FFFFFFFFF",
+              "minimum": "0x80000000",
+              "maximum": "0x9FFFFFFF",
               "width": "40"
             }
           }
