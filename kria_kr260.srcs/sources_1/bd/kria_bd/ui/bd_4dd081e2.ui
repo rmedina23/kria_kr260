@@ -1,18 +1,20 @@
 {
    "ActiveEmotionalView":"Default View",
-   "Default View_ScaleFactor":"0.746875",
-   "Default View_TopLeft":"-374,-620",
+   "Default View_ScaleFactor":"0.724242",
+   "Default View_TopLeft":"-394,-641",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
 #  -string -flagsOSRD
-preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 2 -x 610 -y -70 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 2 -x 630 -y -70 -defaultsOSRD
 preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 110 -y -180 -defaultsOSRD
 preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 110 -y -520 -defaultsOSRD
 preplace inst proc_sys_reset_1 -pg 1 -lvl 1 -x 110 -y -340 -defaultsOSRD
-preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 3 -70 -100 290J -170 930
-preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 3 -80 -90 300J -160 920
-levelinfo -pg 1 -100 110 610 950
-pagesize -pg 1 -db -bbox -sgen -100 -620 950 180
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 3 -70 -90 310J -170 950
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 3 -100 -80 320J -160 940
+preplace netloc clk_wiz_0_clk_out1 1 0 2 -80 -100 300
+preplace netloc clk_wiz_0_clk_out2 1 0 2 -90 -70 290
+levelinfo -pg 1 -120 110 630 970
+pagesize -pg 1 -db -bbox -sgen -120 -620 970 180
 "
 }
 {
