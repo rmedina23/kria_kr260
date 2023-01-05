@@ -1371,6 +1371,9 @@
           "C_IRQ_CONNECTION": {
             "value": "1"
           }
+        },
+        "pfm_attributes": {
+          "IRQ": "intr { id 0 range 32 }"
         }
       },
       "ps8_0_axi_periph": {
