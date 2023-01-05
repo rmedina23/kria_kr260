@@ -5,6 +5,7 @@
       "device": "xck26-sfvc784-2LV-c",
       "gen_directory": "../../../../kria_kr260.gen/sources_1/bd/kria_bd",
       "name": "kria_bd",
+      "pfm_name": "vendor:lib:kria_bd:1.0",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
       "tool_version": "2022.2"
@@ -1309,6 +1310,9 @@
               }
             }
           }
+        },
+        "pfm_attributes": {
+          "AXI_PORT": "M_AXI_HPM0_FPD {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M_AXI_HPM1_FPD {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} S_AXI_HPC0_FPD {memport \"S_AXI_HPC\" sptag \"HPC0\" memory \"\" is_range \"false\"} S_AXI_HPC1_FPD {memport \"S_AXI_HPC\" sptag \"HPC1\" memory \"\" is_range \"false\"} S_AXI_HP0_FPD {memport \"S_AXI_HP\" sptag \"HP0\" memory \"\" is_range \"false\"} S_AXI_HP1_FPD {memport \"S_AXI_HP\" sptag \"HP1\" memory \"\" is_range \"false\"} S_AXI_HP2_FPD {memport \"S_AXI_HP\" sptag \"HP2\" memory \"\" is_range \"false\"} S_AXI_HP3_FPD {memport \"S_AXI_HP\" sptag \"HP3\" memory \"\" is_range \"false\"}"
         }
       },
       "clk_wiz_0": {
@@ -1532,6 +1536,9 @@
               "s00_couplers/M_ARESETN"
             ]
           }
+        },
+        "pfm_attributes": {
+          "AXI_PORT": "M01_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M02_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M03_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M04_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M05_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M06_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M07_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"} M08_AXI {memport \"M_AXI_GP\" sptag \"\" memory \"\" is_range \"false\"}"
         }
       }
     },
