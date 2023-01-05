@@ -5,7 +5,7 @@
       "device": "xck26-sfvc784-2LV-c",
       "gen_directory": "../../../../kria_kr260.gen/sources_1/bd/kria_bd",
       "name": "kria_bd",
-      "pfm_name": "vendor:lib:kria_bd:1.0",
+      "pfm_name": "xilinx:kr260_som:kria_kr260:1.0",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "None",
       "tool_version": "2022.2",
