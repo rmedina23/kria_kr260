@@ -10,7 +10,8 @@
       "tool_version": "2022.2"
     },
     "design_tree": {
-      "zynq_ultra_ps_e_0": ""
+      "zynq_ultra_ps_e_0": "",
+      "clk_wiz_0": ""
     },
     "components": {
       "zynq_ultra_ps_e_0": {
@@ -1303,6 +1304,12 @@
             }
           }
         }
+      },
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "kria_bd_clk_wiz_0_0",
+        "xci_path": "ip/kria_bd_clk_wiz_0_0/kria_bd_clk_wiz_0_0.xci",
+        "inst_hier_path": "clk_wiz_0"
       }
     }
   }
